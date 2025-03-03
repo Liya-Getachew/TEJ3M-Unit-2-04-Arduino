@@ -19,37 +19,37 @@
  
  void loop() 
 {
-   digitalWrite(11, HIGH);   // turn the LED on (HIGH is the voltage level)
-   digitalWrite(12, LOW);   // turn the LED on (HIGH is the voltage level)
-   digitalWrite(13, LOW);   // turn the LED on (HIGH is the voltage level)
-   delay(blink_time);   // wait for length of variable blinkTime
+   digitalWrite(11, HIGH);  // GREEN
+   digitalWrite(12, LOW); 
+   digitalWrite(13, LOW);  
+   delay(blink_time);  
 
-   digitalWrite(11, LOW);
+   digitalWrite(11, LOW); // BLUE
    digitalWrite(12, HIGH);
    digitalWrite(13, LOW);
    delay(blink_time);
 
-   digitalWrite(11, LOW);
+   digitalWrite(11, LOW); // RED
    digitalWrite(12, LOW);
    digitalWrite(13, HIGH);
    delay(blink_time);
 
-   digitalWrite(11, HIGH);
+   digitalWrite(11, HIGH); // YELLOW
    digitalWrite(12, LOW);
    digitalWrite(13, HIGH);
    delay(blink_time);
 
-   digitalWrite(11, HIGH);
+   digitalWrite(11, HIGH);  // CYAN
    digitalWrite(12, HIGH);
    digitalWrite(13, LOW);
    delay(blink_time);
 
-   digitalWrite(11, LOW);
+   digitalWrite(11, LOW);  // MAGENTA
    digitalWrite(12, HIGH);
    digitalWrite(13, HIGH);
    delay(blink_time);
    
-   digitalWrite(11, HIGH);
+   digitalWrite(11, HIGH);  // WHITE
    digitalWrite(12, HIGH);
    digitalWrite(13, HIGH);
    delay(blink_time);
