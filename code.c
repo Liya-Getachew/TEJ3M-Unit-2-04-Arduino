@@ -8,7 +8,7 @@
  */
 
  const int PIN_5 = 5;
- blink_time = 1000
+ int blink_time = 1000;
   
  void setup() 
 {
